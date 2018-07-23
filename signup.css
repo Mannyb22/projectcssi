@@ -1,0 +1,35 @@
+h1 {
+text-align: center;
+}
+
+.form-control {
+  width: 450px;
+  height: 20px;
+  border-style: dashed;
+  border-radius: 30px;
+  border-color: darkgray;
+  padding: 20px;
+}
+
+select {
+  width: 400px;
+}
+.help-block {
+  font-size: 19px;
+}
+header{
+  background-color: black;
+  text-decoration: underline;
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  margin: -8px;
+}
+.TradingX-redirect {
+  text-indent: 90px;
+  color: white
+}
+.login-redirect {
+  text-indent: 90px;
+  color: white;
+}
