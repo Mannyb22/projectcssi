@@ -8,12 +8,13 @@
   </head>
   <header>
     <a href="/logout" class="logout-redirect">Logout</a>
+    <a href="/msg" class="message-redirect">Message</a>
     <br>
     <br>
   </header>
   <body>
     <br>
-    <form method="post"  action="/">
+    <form align="center" method="post"  action="/">
       <label class="label"> Product Name </label>
       <br>
       <input id="input1" type="text" name="product_name">
@@ -46,10 +47,11 @@
       <br>
       <input type="submit">
       <br>
-      <img src="" id="img_url" alt="your image">
+      <img src="" id="img_url" alt="">
     </form>
     <div>
       <img height="100px" width="100px" src="data:image/jpg;base64, %s">
+      <br>
       <br>
       <label class="product_name">Product Name: %s</label>
       <label class="product_description">Product Description: %s</label>

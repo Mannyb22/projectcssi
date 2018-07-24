@@ -15,27 +15,24 @@ header{
   color: white;
   float: right;
 }
+.message-redirect{
+  color: white;
+  padding: 14px 16px;
+  margin-left: 1250px;
+}
 input{
   width: 150px;
   height: 20px;
-  margin-left: 350px;
   border-radius: 20px;
   border-style: groove;
 }
-.label {
-  margin-left: 360px;
-}
-.categories {
-  margin-left: 360px;
-}
+
 input[type="file"]{
-  margin-left: 350px;
   border-radius: none;
 }
 img {
   position: relative;
   height: 100px;
   margin: 10px ;
-  margin-left: 700px;
-  margin-bottom: 300px;
+
 }
