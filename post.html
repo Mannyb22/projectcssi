@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="post.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <title>Post Page</title>
   </head>
   <header>
@@ -36,9 +37,16 @@
         <option value="other">Other<option>
       </select>
       <br>
-      <input type="file" name="file upload" value="choosefile">
+      <script>
+      function img_pathUrl(input){
+         $('#img_url')[0].src = (window.URL ? URL : webkitURL).createObjectURL(input.files[0]);
+      }
+      </script>
+      <input type="file" id="img_file" onChange="img_pathUrl(this);">
       <br>
       <input type="submit">
+      <br>
+      <img src="" id="img_url" alt="your image">
     </form>
 </body>
 </head>
