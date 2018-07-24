@@ -1,5 +1,5 @@
 form {
-  border: 7px dotted red;
+  border: 7px dotted gray;
   align: center
 }
 header{
@@ -24,5 +24,8 @@ input{
   margin-left: 350px;
 }
 .categories {
+  margin-left: 350px;
+}
+input[type="file"]{
   margin-left: 350px;
 }
